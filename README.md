@@ -26,9 +26,14 @@ The **Inception Pipe** is connected with the Delivery Pipe so that issues that a
 
 **COLUMNS**
 
+
+- **Needs Inception**
+
+    Where *inception requests* are parked that are not yet prioritized in product curation → Things (identified problems/feature candidates) can come from Product Circle, Product Curation, Research Insights, Papercuts, "All the things", Wishlist Items, Feature Requests...
+
 - **Ready for Inception**
 
-    Upcoming Issues that have been prioritised from product curation. They can come from wishlist, papercuts, user research, instances, grant funding etc.
+    Upcoming feature candidates (=problems or opportunities, that will turn into a feature) that have been prioritised from product curation. They can come from wishlist, papercuts, user research, instances, grant funding etc.
 
 - **In Inception**
 
@@ -51,16 +56,23 @@ The **Inception Pipe** is connected with the Delivery Pipe so that issues that a
     Issues that are reviewed and approved. They go at the same time into the Dev Pipe ("Dev Ready") → **using the Zen Hub Feature to connect workspaces**
 
     **LABELS**
- 
- Issues that cannot move forward in the pipe, until they get input from Design, Tech or Product
+    
+    Issues / Inception Requests that are newly created could require input from Design, Product, Tech and might be parked until further inception is prioritized
 
-- Blocked: Design Input needed
-- Blocked: Tech Input needed
-- Blocked: Product Input Needed
+    - Needs Design Work
+    - Needs Product Work
+    - Needs Tech Work
+    - Parked
 
-Labels about where the issue/epic is coming from
+     Issues that cannot move forward in the pipe, until they get input from Design, Tech or Product
 
-- Wishlist
-- Papercut
-- Feature request
-- etc.
+    - Blocked: Design Input needed
+    - Blocked: Tech Input needed
+    - Blocked: Product Input Needed
+
+    Labels about where the issue/epic is coming from
+
+    - Wishlist
+    - Papercut
+    - Feature request
+    - etc.
